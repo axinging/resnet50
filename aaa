@@ -1,0 +1,1000 @@
+ 1063  cd -
+ 1064  cd ../tfjs-core
+ 1065  ls
+ 1066  git diff .
+ 1067  cp src/kernels/webgl/conv_gpu_depthwise.ts ~/tfjs-cs/conv_gpu_depthwise.ts_v0328
+ 1068  git diff .
+ 1069  git checkout .
+ 1070  git branch
+ 1071  git log
+ 1072  git checkout master
+ 1073  git remote add upstream  https://github.com/qjia7/tfjs-core.git
+ 1074  git fetch upstream
+ 1075  git checkout master
+ 1076  git merge upstream/master
+ 1077  git log
+ 1078  git branch
+ 1079  git branch -D compileAndRunCS 
+ 1080  git pull origin master
+ 1081  git branch --all
+ 1082  git checkout -b compileAndRunCS remotes/origin/compileAndRunCS
+ 1083  git log
+ 1084  git checkout master
+ 1085  git branch -D compileAndRunCS 
+ 1086  git pull --all
+ 1087  git checkout -b compileAndRunCS remotes/origin/compileAndRunCS
+ 1088  git log
+ 1089  ls
+ 1090  git status
+ 1091  cp ~/tfjs-cs/conv_gpu_depthwise.ts src/kernels/webgl/conv_gpu_depthwise.ts
+ 1092  git diff .
+ 1093  cp ~/tfjs-cs/conv_gpu_depthwise.ts_v0328 src/kernels/webgl/conv_gpu_depthwise.ts
+ 1094  git diff .
+ 1095  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1096  yarn
+ 1097  yarn build-npm
+ 1098  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1099  yarn upgrade @tensorflow/tfjs-core
+ 1100  yarn
+ 1101  yarn build-npm
+ 1102  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1103  yarn upgrade @tensorflow/tfjs-core
+ 1104  yarn upgrade @tensorflow/tfjs
+ 1105  yarn
+ 1106  yarn watch
+ 1107  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1108  yarn
+ 1109  yarn build-npm
+ 1110  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1111  yarn upgrade @tensorflow/tfjs-core
+ 1112  yarn
+ 1113  yarn build-npm
+ 1114  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1115  yarn upgrade @tensorflow/tfjs-core
+ 1116  yarn upgrade @tensorflow/tfjs
+ 1117  yarn
+ 1118  yarn watch
+ 1119  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1120  yarn
+ 1121  yarn build-npm
+ 1122  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1123  yarn upgrade @tensorflow/tfjs-core
+ 1124  yarn
+ 1125  yarn build-npm
+ 1126  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1127  yarn upgrade @tensorflow/tfjs-core
+ 1128  yarn upgrade @tensorflow/tfjs
+ 1129  yarn
+ 1130  yarn watch
+ 1131  ls ~/tfjs-cs/
+ 1132  gedit  ~/tfjs-cs/conv_gpu_depthwise.ts_v_notrealshared 
+ 1133  cd ~/tfjs/qjia/
+ 1134  ls
+ 1135  mv simple-ops/ simple-ops_old
+ 1136  cp ~/google/tfjs/tfjs-examples/simple-ops/  -rf .
+ 1137  cd simple-ops
+ 1138  ls
+ 1139  gedit index.html 
+ 1140  cd ..
+ 1141  ls
+ 1142  cd tfjs-core-orig/
+ 1143  ls
+ 1144  cd tfjs
+ 1145  ls
+ 1146  mkdir cl
+ 1147  cd cl/
+ 1148  wget -c https://www.evl.uic.edu/kreda/gpu/image-convolution/clBenchmark.tar.gz
+ 1149  cd tfjs/qjia/
+ 1150  ls
+ 1151  cd tfjs-core
+ 1152  git status
+ 1153  vim src/kernels/webgl/conv_gpu_depthwise.ts
+ 1154  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1155  yarn
+ 1156  yarn build-npm
+ 1157  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1158  yarn upgrade @tensorflow/tfjs-core
+ 1159  yarn
+ 1160  yarn build-npm
+ 1161  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1162  yarn upgrade @tensorflow/tfjs-core
+ 1163  yarn upgrade @tensorflow/tfjs
+ 1164  yarn
+ 1165  yarn watch
+ 1166  cd ~/tfjs/qjia/tfjs-core
+ 1167  yarn
+ 1168  yarn build-npm
+ 1169  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1170  yarn upgrade @tensorflow/tfjs-core
+ 1171  yarn
+ 1172  yarn build-npm
+ 1173  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1174  yarn upgrade @tensorflow/tfjs-core
+ 1175  yarn upgrade @tensorflow/tfjs
+ 1176  yarn
+ 1177  yarn watch
+ 1178  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1179  yarn
+ 1180  yarn build-npm
+ 1181  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1182  yarn upgrade @tensorflow/tfjs-core
+ 1183  yarn
+ 1184  yarn build-npm
+ 1185  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1186  yarn upgrade @tensorflow/tfjs-core
+ 1187  yarn upgrade @tensorflow/tfjs
+ 1188  yarn
+ 1189  yarn watch
+ 1190  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1191  yarn
+ 1192  yarn build-npm
+ 1193  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1194  yarn upgrade @tensorflow/tfjs-core
+ 1195  yarn
+ 1196  yarn build-npm
+ 1197  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1198  yarn upgrade @tensorflow/tfjs-core
+ 1199  yarn upgrade @tensorflow/tfjs
+ 1200  yarn
+ 1201  yarn watch
+ 1202  ps -xua
+ 1203  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1204  yarn
+ 1205  yarn build-npm
+ 1206  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1207  yarn upgrade @tensorflow/tfjs-core
+ 1208  yarn
+ 1209  yarn build-npm
+ 1210  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1211  yarn upgrade @tensorflow/tfjs-core
+ 1212  yarn upgrade @tensorflow/tfjs
+ 1213  yarn
+ 1214  yarn watch
+ 1215  yarn
+ 1216  yarn build-npm
+ 1217  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1218  yarn upgrade @tensorflow/tfjs-core
+ 1219  yarn
+ 1220  yarn build-npm
+ 1221  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1222  yarn upgrade @tensorflow/tfjs-core
+ 1223  yarn upgrade @tensorflow/tfjs
+ 1224  yarn
+ 1225  yarn watch
+ 1226  ls
+ 1227  cd ml
+ 1228  ls
+ 1229  cd shader/
+ 1230  ls
+ 1231  cat depthwiseConv2dTestMultipleDepth-shader.ts
+ 1232  cd ~/tfjs/qjia/
+ 1233  ls
+ 1234  cd tfjs-core
+ 1235  ls
+ 1236  git diff .
+ 1237  vim src/kernels/webgl/conv_gpu_depthwise.ts
+ 1238  cp src/kernels/webgl/conv_gpu_depthwise.ts src/kernels/webgl/conv_gpu_depthwise.ts_cs1_0410_bad
+ 1239  vim src/kernels/webgl/conv_gpu_depthwise.ts
+ 1240  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts 
+ 1241  git diff .
+ 1242  git checkout src/kernels/webgl/conv_gpu_depthwise.ts
+ 1243  git status
+ 1244  vim src/kernels/backend_webgl.ts
+ 1245  yarn
+ 1246  yarn build-npm
+ 1247  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts 
+ 1248  ls
+ 1249  cd tfjs
+ 1250  cd qjia/
+ 1251  ls
+ 1252  cd  tfjs-core
+ 1253  ls
+ 1254  git status
+ 1255  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts 
+ 1256  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1257  yarn watch
+ 1258  cd tfjs
+ 1259  cd qjia
+ 1260  cd tfjs-core
+ 1261  git status
+ 1262  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1263  cd ~/tfjs/cl/
+ 1264  ls
+ 1265  cd ..
+ 1266  cd qjia/
+ 1267  cd tfjs
+ 1268  git diff .
+ 1269  cd ../tfjs-core
+ 1270  git diff .
+ 1271  cp src/kernels/webgl/conv_gpu_depthwise.ts src/kernels/webgl/conv_gpu_depthwise.ts_0410
+ 1272  git checkout src/kernels/webgl/conv_gpu_depthwise.ts
+ 1273  gedit src/kernels/webgl/conv_gpu_depthwise.ts_0410
+ 1274  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1275  yarn
+ 1276  yarn build-npm
+ 1277  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1278  yarn upgrade @tensorflow/tfjs-core
+ 1279  yarn
+ 1280  yarn build-npm
+ 1281  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1282  yarn upgrade @tensorflow/tfjs-core
+ 1283  yarn upgrade @tensorflow/tfjs
+ 1284  yarn
+ 1285  yarn watch
+ 1286  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1287  yarn
+ 1288  yarn build-npm
+ 1289  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1290  yarn upgrade @tensorflow/tfjs-core
+ 1291  yarn
+ 1292  yarn build-npm
+ 1293  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1294  yarn upgrade @tensorflow/tfjs-core
+ 1295  yarn upgrade @tensorflow/tfjs
+ 1296  yarn
+ 1297  yarn watch
+ 1298  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1299  yarn
+ 1300  yarn build-npm
+ 1301  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1302  yarn upgrade @tensorflow/tfjs-core
+ 1303  yarn
+ 1304  yarn build-npm
+ 1305  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1306  yarn upgrade @tensorflow/tfjs-core
+ 1307  yarn upgrade @tensorflow/tfjs
+ 1308  yarn
+ 1309  yarn watch
+ 1310  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1311  yarn
+ 1312  yarn build-npm
+ 1313  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1314  yarn upgrade @tensorflow/tfjs-core
+ 1315  yarn
+ 1316  yarn build-npm
+ 1317  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1318  yarn upgrade @tensorflow/tfjs-core
+ 1319  yarn upgrade @tensorflow/tfjs
+ 1320  yarn
+ 1321  yarn watch
+ 1322  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1323  yarn
+ 1324  yarn build-npm
+ 1325  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1326  yarn upgrade @tensorflow/tfjs-core
+ 1327  yarn
+ 1328  yarn build-npm
+ 1329  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1330  yarn upgrade @tensorflow/tfjs-core
+ 1331  yarn upgrade @tensorflow/tfjs
+ 1332  yarn
+ 1333  yarn watch
+ 1334  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1335  yarn
+ 1336  yarn build-npm
+ 1337  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1338  yarn upgrade @tensorflow/tfjs-core
+ 1339  yarn
+ 1340  yarn build-npm
+ 1341  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1342  yarn upgrade @tensorflow/tfjs-core
+ 1343  yarn upgrade @tensorflow/tfjs
+ 1344  yarn
+ 1345  yarn watch
+ 1346  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1347  git diff .
+ 1348  cp src/kernels/webgl/conv_gpu_depthwise.ts src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1349  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1350  yarn
+ 1351  yarn build-npm
+ 1352  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1353  yarn upgrade @tensorflow/tfjs-core
+ 1354  yarn
+ 1355  yarn build-npm
+ 1356  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1357  yarn upgrade @tensorflow/tfjs-core
+ 1358  yarn upgrade @tensorflow/tfjs
+ 1359  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1360  yarn
+ 1361  yarn build-npm
+ 1362  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1363  yarn upgrade @tensorflow/tfjs-core
+ 1364  yarn
+ 1365  yarn build-npm
+ 1366  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1367  yarn upgrade @tensorflow/tfjs-core
+ 1368  yarn upgrade @tensorflow/tfjs
+ 1369  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1370  yarn
+ 1371  yarn build-npm
+ 1372  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1373  yarn upgrade @tensorflow/tfjs-core
+ 1374  yarn
+ 1375  yarn build-npm
+ 1376  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1377  yarn upgrade @tensorflow/tfjs-core
+ 1378  yarn upgrade @tensorflow/tfjs
+ 1379  yarn
+ 1380  yarn watch
+ 1381  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1382  yarn
+ 1383  yarn build-npm
+ 1384  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1385  yarn upgrade @tensorflow/tfjs-core
+ 1386  yarn
+ 1387  yarn build-npm
+ 1388  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1389  yarn upgrade @tensorflow/tfjs-core
+ 1390  yarn upgrade @tensorflow/tfjs
+ 1391  yarn
+ 1392  yarn watch
+ 1393  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1394  yarn
+ 1395  yarn build-npm
+ 1396  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1397  yarn upgrade @tensorflow/tfjs-core
+ 1398  yarn
+ 1399  yarn build-npm
+ 1400  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1401  yarn upgrade @tensorflow/tfjs-core
+ 1402  yarn upgrade @tensorflow/tfjs
+ 1403  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1404  yarn
+ 1405  yarn build-npm
+ 1406  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1407  yarn upgrade @tensorflow/tfjs-core
+ 1408  yarn
+ 1409  yarn build-npm
+ 1410  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1411  yarn upgrade @tensorflow/tfjs-core
+ 1412  yarn upgrade @tensorflow/tfjs
+ 1413  yarn
+ 1414  yarn watch
+ 1415  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1416  yarn
+ 1417  yarn build-npm
+ 1418  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1419  yarn upgrade @tensorflow/tfjs-core
+ 1420  yarn
+ 1421  yarn build-npm
+ 1422  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1423  yarn upgrade @tensorflow/tfjs-core
+ 1424  yarn upgrade @tensorflow/tfjs
+ 1425  yarn
+ 1426  yarn watch
+ 1427  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1428  yarn
+ 1429  yarn build-npm
+ 1430  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1431  yarn upgrade @tensorflow/tfjs-core
+ 1432  yarn
+ 1433  yarn build-npm
+ 1434  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1435  yarn upgrade @tensorflow/tfjs-core
+ 1436  yarn upgrade @tensorflow/tfjs
+ 1437  yarn
+ 1438  yarn watch
+ 1439  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1440  yarn
+ 1441  yarn build-npm
+ 1442  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1443  yarn upgrade @tensorflow/tfjs-core
+ 1444  yarn
+ 1445  yarn build-npm
+ 1446  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1447  yarn upgrade @tensorflow/tfjs-core
+ 1448  yarn upgrade @tensorflow/tfjs
+ 1449  yarn
+ 1450  yarn watch
+ 1451  cd /home/xxu42/tfjs/qjia/tfjs-core
+ 1452  yarn
+ 1453  yarn build-npm
+ 1454  cd  /home/xxu42/tfjs/qjia/tfjs
+ 1455  yarn upgrade @tensorflow/tfjs-core
+ 1456  yarn
+ 1457  yarn build-npm
+ 1458  ls
+ 1459  df
+ 1460  ls -l
+ 1461  du -sh node_modules/
+ 1462  du -sh dist/
+ 1463  yarn cache clean
+ 1464  cd ~/
+ 1465  cd google/
+ 1466  ls
+ 1467  cd  tfjs/
+ 1468  ls
+ 1469  cd tfjs-core/
+ 1470  git diff ./
+ 1471  cd ..
+ 1472  du -sh tfjs-core/
+ 1473  cd tfjs-core/
+ 1474  du -sh node_modules/
+ 1475  ls
+ 1476  du -sh dist/
+ 1477  du -sh src/
+ 1478  ls -a
+ 1479  du -sh .rpt2_cache/
+ 1480  du -sh .git
+ 1481  ls -a
+ 1482  du -sh .vscode/
+ 1483  du -sh scripts/
+ 1484  ls -a
+ 1485  git diff .
+ 1486  cp integration_tests/benchmarks/benchmark.html ~/
+ 1487  cd ..
+ 1488  rm -rf tfjs-core/
+ 1489  df
+ 1490  ls
+ 1491  du -sh tfjs
+ 1492  cd tfjs
+ 1493  git diff .
+ 1494  cd ..
+ 1495  rm -rf tfjs
+ 1496  ls
+ 1497  df
+ 1498  ls
+ 1499  du -sh tfjs-examples/
+ 1500  cd tfjs-examples/
+ 1501  git diff .
+ 1502  git status
+ 1503  cd ..
+ 1504  rm -rf tfjs-examples/
+ 1505  ls
+ 1506  du -sh tfjs-layers/
+ 1507  rm -rf tfjs-layers/
+ 1508  du -sh tfjs-converter/
+ 1509  rm -rf  tfjs-converter/
+ 1510  du -sh .
+ 1511  ls
+ 1512  cd ..
+ 1513  ls
+ 1514  ls ml/
+ 1515  du -sh  ml/
+ 1516  cd ml/
+ 1517  ls
+ 1518  ls xing/
+ 1519  du -sh  xing/
+ 1520  rm -rf xing/
+ 1521  ls
+ 1522  du -sh qjia/
+ 1523  ls demos/
+ 1524  cat demos/group1-shard1of5 
+ 1525  ls
+ 1526  cd ..
+ 1527  rm -rf ml/
+ 1528  df
+ 1529  ls
+ 1530  l;s yarntest/
+ 1531  ls yarntest/
+ 1532  du -sh  yarntest/
+ 1533  rm -rf   yarntest/
+ 1534  ls
+ 1535  cd ..
+ 1536  du -sh google/
+ 1537  ls
+ 1538  cd google/
+ 1539  ls
+ 1540  ls tfjs/
+ 1541  ls tfjs/MyExample/
+ 1542  mv  tfjs/ ~/tfjs/tfjs_tmp
+ 1543  cd ../
+ 1544  ls
+ 1545  ls Android
+ 1546  ls
+ 1547  ls ml
+ 1548  ls ml/shader/
+ 1549  ls ml/tensorflow/'
+ 1550  ls ml/tensorflow/
+ 1551  du -sh  ml/tensorflow/
+ 1552  ls
+ 1553  ls mml
+ 1554  rm -rf  mml
+ 1555  ls
+ 1556  ls tfjs-cs/
+ 1557  mv tfjs-cs/ ./tfjs
+ 1558  cd tfjs/
+ 1559  ls
+ 1560  du -sh xing/
+ 1561  ls
+ 1562  mv ../ml/tensorflow/ .
+ 1563  ls
+ 1564  df
+ 1565  ls
+ 1566  cd ..
+ 1567  ls
+ 1568  du -sh AndroidStudioProjects/
+ 1569  ls
+ 1570  du -sh gameengine/
+ 1571  ls gameengine/
+ 1572  rm -rf gameengine/
+ 1573  df
+ 1574  ls
+ 1575  du -sh back
+ 1576  ls
+ 1577  ls ml
+ 1578  ls ml/shader/
+ 1579  rm -rf  ml/
+ 1580  df
+ 1581  du -sh tfjs
+ 1582  ls ~/.cache
+ 1583  du -sh ~/.cache
+ 1584  du -sh ~/.cache/yarn/
+ 1585  yarn cache clean
+ 1586  cd cpptests
+ 1587  ls
+ 1588  vim compute_cache.cpp 
+ 1589  ls
+ 1590  cd tfjs
+ 1591  ls
+ 1592  cd qjia/
+ 1593  ls
+ 1594  cd tfjs-core
+ 1595  ls
+ 1596  git status
+ 1597  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts 
+ 1598  ls
+ 1599  cd tfjs
+ 1600  ls
+ 1601  cd qjia/
+ 1602  cd tfjs-examples/
+ 1603  ls
+ 1604  cd getting-started/
+ 1605  ls
+ 1606  vim index.js 
+ 1607  cat index.js 
+ 1608  cd ~/
+ 1609  cd tfjs/
+ 1610  cd qjia/
+ 1611  ls
+ 1612  cd tfjs-core
+ 1613  cd src/kernels/webgl/
+ 1614  ls
+ 1615  vim conv_gpu.ts 
+ 1616  cat con
+ 1617  cat conv_gpu.ts
+ 1618  cd tfjs
+ 1619  cd aji
+ 1620  cd qjia/
+ 1621  cd tfjs-examples/mobilenet/
+ 1622  yarn watch
+ 1623  ls
+ 1624  cd tfjs
+ 1625  ls
+ 1626  ls WebGL_Compute_shader
+ 1627  ls
+ 1628  ls Ops_shader
+ 1629  cd Ops_shader/
+ 1630  ls
+ 1631  cat DepthwiseConv2DProgram.ts
+ 1632  ls
+ 1633  cat DepthwiseConv2DProgram.log
+ 1634  ls ../qjia/
+ 1635  ls ../qjia/tfjs-examples/
+ 1636  ls
+ 1637  cd ..
+ 1638  ls
+ 1639  ls tfjs-cs
+ 1640  ls
+ 1641  ls cl/
+ 1642  cd ..
+ 1643  ls
+ 1644  ls google/
+ 1645  mkdir test
+ 1646  cd funny
+ 1647  mkdir funny
+ 1648  cd funny/
+ 1649  git clone https://github.com/komeiji-satori/Dress
+ 1650  ls
+ 1651  cd tfjs
+ 1652  ls
+ 1653  cd qjia/
+ 1654  ls
+ 1655  cd tfjs-core
+ 1656  git diff .
+ 1657  git status
+ 1658  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1659  cd ~/tfjs/qjia/tfjs-core
+ 1660  yarn build-npm
+ 1661  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1662  yarn watch
+ 1663  cat ~/TFJS-build 
+ 1664  cd -
+ 1665  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1666  cd ~/tfjs/qjia/tfjs-core
+ 1667  yarn build-npm
+ 1668  cd ~/tfjs/qjia/tfjs-core
+ 1669  yarn build-npm
+ 1670  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1671  yarn watch
+ 1672  vim index.js 
+ 1673  yarn watch
+ 1674  cd ~/tfjs/qjia/tfjs-core
+ 1675  yarn build-npm
+ 1676  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1677  yarn watch
+ 1678  cd  tfjs/qjia/tfjs-core
+ 1679  ls
+ 1680  git diff .
+ 1681  ls
+ 1682  cd tfjs
+ 1683  cd qjia/
+ 1684  ls
+ 1685  cd tfjs-core
+ 1686  ls
+ 1687  git status
+ 1688  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1689  cp src/kernels/webgl/conv_gpu_depthwise_cs.ts src/kernels/webgl/conv_gpu_depthwise_cs.ts_nofor_0416
+ 1690  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1691  yarn build-npm
+ 1692  cd ~/tfjs/qjia/tfjs-core
+ 1693  yarn build-npm
+ 1694  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1695  yarn watch
+ 1696  cd -
+ 1697  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1698  ls
+ 1699  cd tfjs/
+ 1700  cd qjia/
+ 1701  cd tfjs-core
+ 1702  git status
+ 1703  cat src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1704  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1705  cd ~/tfjs/qjia/tfjs-core
+ 1706  yarn build-npm
+ 1707  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1708  yarn watch
+ 1709  cd -
+ 1710  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts
+ 1711  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1712  npm run lint src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1713  tslint -p . -t verbose "src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts"
+ 1714  npm i tslint
+ 1715  cp "src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts" .
+ 1716  ls
+ 1717  tslint -p . -t verbose "src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts"
+ 1718  npm run lint src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1719  vim /home/xxu42/tfjs/qjia/tfjs-core/src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1720  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1721  npm run lint src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1722  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1723  cd ~/tfjs/qjia/tfjs-core
+ 1724  yarn build-npm
+ 1725  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1726  yarn watch
+ 1727  cd -
+ 1728  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1729  cd ~/tfjs/qjia/tfjs-core
+ 1730  yarn build-npm
+ 1731  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1732  yarn watch
+ 1733  cd ~/tfjs/qjia/tfjs-core
+ 1734  yarn build-npm
+ 1735  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1736  yarn watch
+ 1737  cd ~/tfjs/qjia/tfjs-core
+ 1738  yarn build-npm
+ 1739  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1740  yarn watch
+ 1741  cd ~/tfjs/qjia/tfjs-core
+ 1742  yarn build-npm
+ 1743  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1744  yarn watch
+ 1745  cd -
+ 1746  vim index.js 
+ 1747  cd ~/tfjs/qjia/tfjs-examples/mobilenet/
+ 1748  ls
+ 1749  vim index.js 
+ 1750  cd ../getting-started/
+ 1751  vim index.js 
+ 1752  vim ../mobilenet/index.js 
+ 1753  vim index.js 
+ 1754  vim ../mobilenet/index.js 
+ 1755  vim index.js 
+ 1756  cd -
+ 1757  cd ../../tfjs-core
+ 1758  ls
+ 1759  git status
+ 1760  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1761  vim src/kernels/webgl/conv_gpu_depthwise_cs.ts 
+ 1762  vim src/kernels/webgl/conv_gpu_depthwise.ts 
+ 1763  cd -
+ 1764  vim index.js 
+ 1765  cd ../getting-started/
+ 1766  vim index.js 
+ 1767  cd -
+ 1768  vim index.js 
+ 1769  yarn watch
+ 1770  ls
+ 1771  cd -
+ 1772  cd ../../tfjs-core
+ 1773  git status
+ 1774  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1775  cd -
+ 1776  cd ../mobilenet/
+ 1777  ls
+ 1778  vim index.js 
+ 1779  cd tfjs
+ 1780  ls
+ 1781  cd qjia/tfjs-core
+ 1782  git status
+ 1783  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1784  yarn build-npm
+ 1785  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1786  yarn watch
+ 1787  cd -
+ 1788  git status
+ 1789  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1790  yarn build-npm
+ 1791  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1792  yarn watch
+ 1793  cd tfjs/qjia/tfjs-examples/mobilenet/
+ 1794  ls
+ 1795  vim index.js 
+ 1796  cd tfjs
+ 1797  cd qjia/
+ 1798  ls
+ 1799  cd tfjs-core
+ 1800  ls
+ 1801  git status
+ 1802  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1803  yarn build-npm
+ 1804  cd ~/tfjs/qjia/tfjs-core
+ 1805  yarn build-npm
+ 1806  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1807  yarn watch
+ 1808  cd -
+ 1809  cd ~/tfjs/qjia/tfjs-core
+ 1810  yarn build-npm
+ 1811  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1812  yarn watch
+ 1813  cd tfjs/qjia/tfjs-core
+ 1814  git status
+ 1815  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1816  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1817  cd ~/tfjs/qjia/tfjs-core
+ 1818  ls
+ 1819  git status
+ 1820  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1821  yarn build-npm
+ 1822  cd ~/tfjs/qjia/tfjs-core
+ 1823  yarn build-npm
+ 1824  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1825  yarn watch
+ 1826  ifconfig
+ 1827  cd -
+ 1828  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1829  cd tfjs
+ 1830  cd qjia/
+ 1831  ls
+ 1832  cd tfjs-core
+ 1833  ls
+ 1834  cd src/
+ 1835  git status
+ 1836  vim kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1837  cd ..
+ 1838  yarn build-npm
+ 1839  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1840  yarn watch
+ 1841  cd /home/xxu42/tfjs/qjia/tfjs-examples/mobilenet
+ 1842  yarn watch
+ 1843  cd ~/tfjs/qjia/tfjs-core
+ 1844  yarn build-npm
+ 1845  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1846  yarn watch
+ 1847  cd tfjs/qjia/
+ 1848  ls
+ 1849  cd tfjs-examples/
+ 1850  ls
+ 1851  cd ~/tfjs/qjia/tfjs-core\
+ 1852  cd ~/tfjs/qjia/tfjs-core
+ 1853  git status
+ 1854  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1855  cd ~/tfjs/qjia/tfjs-core
+ 1856  git status
+ 1857  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1858  yarn build-npm
+ 1859  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1860  yarn build-npm
+ 1861  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts 
+ 1862  cp src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts  src/kernels/webgl/conv_gpu_depthwise_cs_pad0_without_for_0424_v1.ts
+ 1863  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1864  cd ~/tfjs/qjia/tfjs-core
+ 1865  yarn build-npm
+ 1866  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1867  yarn watch
+ 1868  cd ~/tfjs/qjia/tfjs-core
+ 1869  yarn build-npm
+ 1870  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1871  yarn watch
+ 1872  cd ~/tfjs/qjia/tfjs-core
+ 1873  yarn build-npm
+ 1874  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1875  yarn watch
+ 1876  cd ~/tfjs/qjia/tfjs-core
+ 1877  yarn build-npm
+ 1878  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1879  yarn watch
+ 1880  cd ~/tfjs/qjia/tfjs-core
+ 1881  yarn build-npm
+ 1882  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1883  yarn watch
+ 1884  ls
+ 1885  cd tfjs/qjia/tfjs-examples/mobilenet/
+ 1886  yarn watch
+ 1887  cd ~/tfjs/qjia/tfjs-core
+ 1888  git status
+ 1889  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1890  cd ~/tfjs/qjia/tfjs-core
+ 1891  yarn build-npm
+ 1892  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1893  yarn watch
+ 1894  ps x-au
+ 1895  ps -xua
+ 1896  kill -9 32480
+ 1897  ps -xua
+ 1898  kill -9 32490
+ 1899  ps -xua
+ 1900  kill -9 32491
+ 1901  kill -9 32497
+ 1902  ps -xua
+ 1903  yarn watch
+ 1904  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1905  cd cd ~/tfjs/qjia/tfjs-core
+ 1906  cd ~/tfjs/qjia/tfjs-core
+ 1907  git status
+ 1908  vim src/kernels/webgl/conv_gpu_depthwise_cs_pad0.ts
+ 1909  cd ~/tfjs/qjia/tfjs-core
+ 1910  yarn build-npm
+ 1911  cd ~/tfjs/qjia/tfjs-examples/mobilenet
+ 1912  yarn watch
+ 1913  cd ..
+ 1914  mkdir xueheng
+ 1915  cd xueheng/
+ 1916  git clone https://github.com/GreyZzzzzzXh/tfjs-core.git
+ 1917  cd tfjs-core/
+ 1918  git branch --all
+ 1919  git checkout -b convxh origin/conv
+ 1920  cd ~/vulkan/upxing/Vulkan/data/shaders/
+ 1921  ls
+ 1922  grep -r -s shared .
+ 1923  ls
+ 1924  cd ./computenbody/
+ 1925  ls
+ 1926  cat particle_calculate.comp.spv
+ 1927  vim  particle_calculate.comp.spv
+ 1928  ls
+ 1929  vim  particle_calculate.comp.spv
+ 1930  ls
+ 1931  cp ../texture/generate-spirv.bat  .
+ 1932  cat generate-spirv.bat 
+ 1933  glslangvalidator -V particle_calculate.comp -H -o particle_calculate_readable.comp.spv
+ 1934  gedit particle_calculate_readable.comp.spv
+ 1935  ls
+ 1936  cp particle_calculate.comp particle_calculate_test.comp
+ 1937  gedit particle_calculate_test.comp
+ 1938  glslangvalidator -V particle_calculate.comp -H 
+ 1939  glslangvalidator -V particle_calculate.comp -H  > withshared.spv
+ 1940  cat withshared.spv 
+ 1941  glslangvalidator -V particle_calculate.comp -H  > withoutshared.spv
+ 1942  glslangvalidator -V particle_calculate.comp -H -o particle_calculate_readable.comp.spv
+ 1943  vimdiff withshared.spv  withoutshared.spv 
+ 1944  glslangvalidator -V particle_calculate.comp -H  > withoutshared.sp
+ 1945  glslangvalidator -V particle_calculate.comp -H 
+ 1946  glslangvalidator -V particle_calculate.comp -H  > withoutshared.spv
+ 1947  vimdiff withshared.spv  withoutshared.spv 
+ 1948  diff withshared.spv  withoutshared.spv 
+ 1949  glslangvalidator -V particle_calculate_test.comp -H  > withoutshared.spv
+ 1950  diff withshared.spv  withoutshared.spv 
+ 1951  vim withshared.spv 
+ 1952  df
+ 1953  ls
+ 1954  cd qjia
+ 1955  cd tfjs/
+ 1956  cd helloyarn/
+ 1957  ls
+ 1958  ls -a
+ 1959  rm -rf *
+ 1960  yarn init
+ 1961  yarn --dev add typescript rollup rollup-plugin-typescript2
+ 1962  ls
+ 1963  cat package.json 
+ 1964  cd ..
+ 1965  mkdir tfjs-resnet
+ 1966  cd tfjs-resnet/
+ 1967  yar init
+ 1968  yarn init
+ 1969  yarn --dev add typescript rollup rollup-plugin-typescript2
+ 1970  vim tsconfig.json
+ 1971  vim aa
+ 1972  vim rollup.config.js
+ 1973  mkdir src
+ 1974  vim src/index.ts
+ 1975  yarn build-npm
+ 1976  cat package.json 
+ 1977  vim  package.json 
+ 1978  yarn build-npm
+ 1979  ls
+ 1980  cp ~/tfjs/qjia/tfjs-core/scripts/ . -rf
+ 1981  yarn build-npm
+ 1982  vim src/index.ts 
+ 1983  yarn build-npm
+ 1984  vim src/index.ts 
+ 1985  yarn build-npm
+ 1986  vim src/index.ts 
+ 1987  yarn build-npm
+ 1988  vim rollup.config.js 
+ 1989  yarn build-npm
+ 1990  vim rollup.config.js 
+ 1991  yarn build-npm
+ 1992  ls
+ 1993  ls dist/
+ 1994  cat dist/index.js 
+ 1995  cd ..
+ 1996  cd -
+ 1997  ls
+ 1998  cat tsconfig.json
+ 1999  cat rollup.config.js 
+ 2000  cat src/index.ts 
+ 2001  cd ../src_back/
+ 2002  ls
+ 2003  cat resnet.ts 
+ 2004  cd ..
+ 2005  cd qjia/
+ 2006  cd tfjs
+ 2007  ls
+ 2008  gedit package.json 
+ 2009  grep -r -s moduleResolution .
+ 2010  cd ../tfjs-examples/mobilenet/
+ 2011  grep -r -s moduleResolution .
+ 2012  cd ../../
+ 2013  cd tfjs
+ 2014  grep -r -s moduleResolution .
+ 2015  vim package.json 
+ 2016  cd ..
+ 2017  ls
+ 2018  cd tfjs-resnet/
+ 2019  ls
+ 2020  cd ../
+ 2021  cd resnet/
+ 2022  ls
+ 2023  grep -r -s moduleResolution .
+ 2024  cat ./tfjs-applications/tsconfig.json
+ 2025  cd ..
+ 2026  cd qjia/tfjs-examples/
+ 2027  ls
+ 2028  cd resnet50/
+ 2029  ls
+ 2030  yarn link "tfjs-resnet"
+ 2031  vim index.js
+ 2032  yarn watch
+ 2033  vim index.js
+ 2034  yarn watch
+ 2035  cp index.js index.js_original
+ 2036  gedit index.js
+ 2037  yarn watch
+ 2038  ls
+ 2039  cat package.json 
+ 2040  yarn watch
+ 2041  grep -r -s index.es.js .
+ 2042  vim package.json 
+ 2043  grep -r -s index.es.js .
+ 2044  yarn watch
+ 2045  yarn unlink "tfjs-resnet"
+ 2046  yarn link "tfjs-resnet"
+ 2047  yarn
+ 2048  yarn watch
+ 2049  rm -rf node_modules/
+ 2050  yarn watch
+ 2051  yarn
+ 2052  yarn watch
+ 2053  vim package.json 
+ 2054  yarn watch
+ 2055  yarn unlink "tfjs-resnet"
+ 2056  yarn link "tfjs-resnet"
+ 2057  yarn watch
+ 2058  cat package.json 
+ 2059  yarn add tfjs-cifar10-web
+ 2060  yarn add "tfjs-cifar10-web"
+ 2061  history
+ 2062  history > aaa
